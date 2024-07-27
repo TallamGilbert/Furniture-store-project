@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'segoe ui';
+  }
+  
+  
+
+  /*----------------------------------------------------------------------------------------------------------------------/*
+
+  /* Style the content */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url('/IMAGES/retro-living-room-interior-design.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding-top: 50px; /* Adjust for fixed header */
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.hero {
+    font-size: 7vw;
+    font-family: 'Glegoo';
+    color: #eee;
+    padding: 70px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #eee;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: white;
+    background-color: orange;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: darkorange;
+}
+
+  
+
+.testimonials {
+    background-color: #000000cb;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f8b601;
+}
+
+.testimonial-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial {
+    display: none;
+    padding: 20px;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.testimonial img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 15px;
+    font-size: 1em;
+    color: #ecb315;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background-color: transparent;
+    color: #ebaa20;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 2em;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.controls button:hover {
+    color: #555;
+}
