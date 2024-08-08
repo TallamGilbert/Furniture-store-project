@@ -1,8 +1,8 @@
 .product-body {
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff;
+    color: #555555;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,7 +14,6 @@ main {
     padding: 20px;
     display: flex;
     align-items: center;
-    flex: 1;
 }
 
 .product-grid {
