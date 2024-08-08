@@ -1,12 +1,15 @@
 * {
     box-sizing: border-box;
-  }
-  
-  body {
-    margin: 0px;
-    font-family: 'segoe ui';
-  }
-  
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+/* Add any additional styling as needed */
+
   
 
   /*----------------------------------------------------------------------------------------------------------------------/*
