@@ -1,7 +1,7 @@
 .nav {
   height: 70px;
   width: 100%;
-  background-color: #FAFAFA;
+  background-color: #191970;
   position: relative;
 }
 
@@ -31,12 +31,12 @@
   display: inline-block;
   padding: 20px 50px 20px 50px;
   text-decoration: none;
-  color: #000000;
+  color: #FFFDD0;
 }
 
 /* Add hover effect */
 .nav > .nav-links > a:hover {
-  color: #008080; /* Change this color to whatever you want */
+  color: #DCAE96; /* Change this color to whatever you want */
 }
 
 .nav > #nav-check {
