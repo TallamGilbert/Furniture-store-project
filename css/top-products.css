@@ -15,7 +15,19 @@ main {
     display: flex;
     align-items: center;
 }
+/* Wrapper should take up the full height minus the footer */
+.wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
+/* Container remains centered and well-sized */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 .product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
