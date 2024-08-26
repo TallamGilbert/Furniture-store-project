@@ -3,7 +3,7 @@ body {
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-    height:900px;
+    
 }
 
 .contact {
@@ -15,6 +15,7 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 0 20px;
+    height:900px;
 }
 
 h2 {
