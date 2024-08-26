@@ -37,7 +37,7 @@
 
 /* Add hover effect */
 .nav > .nav-links > a:hover {
-  color: #008080; /* Change this color to whatever you want */
+  color: #FFAA33; /* Change this color to whatever you want */
 }
 
 .nav > #nav-check {
