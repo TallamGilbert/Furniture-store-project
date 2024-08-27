@@ -16,6 +16,15 @@
     color: orange;
     padding: 10px;
 }
+.nav-links a:focus, .social-links a:focus {
+    outline: 2px solid #fff; /* Visible focus outline */
+    outline-offset: 2px;
+}
+
+.nav-btn label:focus {
+    outline: 2px solid #fff;
+    outline-offset: 5px;
+}
 
 
 .nav > .nav-btn {
