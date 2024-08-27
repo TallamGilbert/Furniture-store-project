@@ -5,31 +5,32 @@ body {
     background-color: #f9f9f9;
     color: #ffffff;
     display: flex;
-    flex-direction: column;
-    align-content: center;
-    
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    height: 100vh;            /* Full viewport height */
 }
-
 
 main {
     display: flex;
     flex-direction: column;
-    
     width: 100%;
+    max-width: 900px;         /* Limit the width of the main content */
     padding: 40px 20px;
     box-sizing: border-box;
+    background-color: #423f3f;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;       /* Center text */
 }
 
 .about {
     width: 100%;
-    max-width: 900px;
     margin-bottom: 40px;
 }   
 
 .about-container {
     background-color: #423f3f;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -78,7 +79,6 @@ ul li {
 
 .team {
     width: 100%;
-    max-width: 900px;
     text-align: center;
 }
 
@@ -92,7 +92,6 @@ ul li {
 .team-member {
     background-color: #423f3f;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 200px;
     text-align: center;
@@ -101,9 +100,7 @@ ul li {
 .team-image {
     width: 100%;
     border-radius: 10%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     height: 200px; /* Set a fixed height for the images */
     object-fit: cover; /* Ensures the image covers the area without stretching */
-    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
-
