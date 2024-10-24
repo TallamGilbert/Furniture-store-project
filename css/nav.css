@@ -1,7 +1,7 @@
 .nav {
     height: 70px;
     width: 100%;
-    background-color: #000000;
+    background-color: #1E2A38;
     position: relative;
 }
 
@@ -37,7 +37,7 @@
 
 /* Add hover effect */
 .nav > .nav-links > a:hover {
-  color: #FFAA33; /* Change this color to whatever you want */
+  color: #C7A352; /* Change this color to whatever you want */
 }
 
 .nav > #nav-check {
